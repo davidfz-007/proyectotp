@@ -1,0 +1,121 @@
+h2{
+    font-weight: bold;
+    font-size: 1px;
+}
+p{
+    text-align: center;
+
+}
+
+section{
+    justify-content: center;
+    padding-top: 1px;
+}
+
+
+.navbar-logo{
+    color:#ffff;
+    text-decoration:none
+}
+
+.navbar-logo:hover{
+    color: #ffff;
+}
+
+.navbar{
+    background:#393d44;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar > .container {
+        display: block;
+    }
+  }
+
+
+.nav-link{
+    color:#99999a
+}
+.nav-footer{
+color: white;
+}
+
+.nav-link:hover{
+    color: #ffff;
+}
+
+.tickets{
+        color:green;;
+}
+
+.tickets:hover{
+    color:green
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform:uppercase ;
+}
+
+
+.card{
+    margin:20px;
+}
+
+.card-text{
+ text-align:left;
+}
+
+
+.contenedorPortada{
+    text-align: right;
+    margin-bottom:250px;
+    padding-left:500px;
+background-color:rgba(255, 253, 253, 0.1);
+}
+
+.descripcionPortada{
+    text-align: right;
+    font-size:medium;
+}
+
+.boton{
+    color: #ffff;
+    background-color:transparent;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.boton:hover{
+    color:black;
+    background-color:#ffff;
+}
+
+.Tickets{
+    color: #ffff;
+    background-color:green;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 20px;
+    border:1em green;
+}
+.Tickets:hover{
+    background-color:green
+}
+
+.card{
+    padding:0;
+}
+
+.send{
+    background-color: #98ca50 !important;
+    color: white;
+}
+
+.form-texto{
+    text-align: left;
+}
